@@ -1,0 +1,29 @@
+Página Web de Naruto
+Equipo:
+    • Miembros: Lucas Sánchez, Lucas Chacón y Jorge Pastor.
+    • Jefe de equipo: Lucas Chacón.
+Tema de la Web:
+    • Es una página web dedicada a Naruto y su universo, en la que puedes ser socio y enterarte de las ultimas novedades.
+Responsabilidades de cada miembro:
+    • Jorge Pastor: Página de Naruto.
+    • Lucas Chacón: Página de Naruto Shippuden.
+    • Lucas Sánchez: Página de Boruto.
+    • Página principal y página de "Hazte Socio": Trabajo conjunto de los tres.
+Componentes: Implementado por todos
+    • Carousel: para las fotos dinámicas. 
+    • Alerts: para poner alertas de spoiler, etc. 
+    • Button: para el desarrollo del ver más. 
+    • List Group: para el menú desplegable del móvil y de la tablet. 
+    • Navbar: para la barra del menú. 
+Diseño:
+    • Para Móvil:
+        ◦ Menú contraído vertical, una columna y una foto de carousel.
+    • Para Tablets:
+        ◦ Menú contraído vertical, dos columnas y con dos fotos de carousel.
+    • Para Ordenador:
+        ◦ Menú en barra, dos columnas y con cuatro de fotos de carousel.
+      Estilos CSS:
+        ◦ Estilo para la página principal.
+        ◦ Estilo para las páginas secundarias.
+        ◦ Estilo para el formulario.
+    • Colores principales: Blanco, naranja y negro (Colores del atuendo de Naruto).
