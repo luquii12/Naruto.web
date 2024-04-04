@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hazte socio</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="/paginaDestino" method="get">
+        <div>
+            <label for="Nombre" class="form-label">Nombre: </label>
+            <input type="text" class="form-control" name="Nombre" id="Nombre">
+        </div>
+        <div>
+            <label for="Apellidos" class="form-label">Apellidos: </label>
+            <input type="text" class="form-control" name="Apellidos" id="Apellidos">
+        </div>
+        <div>
+            <label for="Correo" class="form-label">Correo electrónico: </label>
+            <input type="email" class="form-control" name="Correo" id="Correo">
+        </div>
+        <div>
+            <label for="Tel" class="form-label">Número de teléfono: </label>
+            <input type="tel" class="form-control" name="Tel" id="Tel" pattern="[6,7,9]{1}[0-9]{2} [0-9]{3} [0-9]{3}"
+                placeholder="000 000 000">
+        </div>
+        <div>
+            <label for="Pais" class="form-label">País: </label>
+            <input type="text" class="form-control" name="Pais" id="Pais">
+        </div>
+        <div>
+            <label for="Ciudad" class="form-label">Ciudad: </label>
+            <input type="text" class="form-control" name="Ciudad" id="Ciudad">
+        </div>
+        <div>
+            <label for="Motivo" class="form-label">Motivo por el que te haces socio</label>
+            <textarea class="form-control" name="motivo" id="Motivo" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="Si" name="Elegir" required />
+            <label for="Si" class="form-label">Acepto los términos y las condiciones
+            </label>
+        </div>
+    </form>
+    <button type="submit">Enviar</button>
+    <button type="reset">Cancelar</button>
+    <div class="PCR">
+        <p><a href="../export.html">Política de Privacidad</a></p>
+        <p>Copyright © 2024 Naruto Inc. Todos los derechos reservados</p>
+        <p><img src="../icons/instagram.svg"> <img src="../icons/facebook.svg"> <img src="../icons/twitter-x.svg"> <img
+                src="../icons/youtube.svg"></p>
+        <hr>
+        <p>Naruto SA CIF B73317494. C/Stra Irene, 4, Ciudad Lineal 28017, Comunidad de Madrid, Madrid. ESPAÑA.</p>
+    </div>
+
+</body>
+
+</html>
