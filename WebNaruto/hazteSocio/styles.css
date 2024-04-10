@@ -1,6 +1,7 @@
 body{
     background-color: #eb984e;
 }
+
 form{
     width: 1000px;
     margin: auto;
@@ -8,9 +9,33 @@ form{
     border-radius: 10px;
     padding: 0.5em;
 }
-.PCR{
-    text-align: center;
-}
+
 label{
     color: white;
 }
+*{
+    margin: 0.3em;
+    padding: 0.3em;
+}
+
+.PCR{
+    text-align: center;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    position: relative;
+}
+.row div{
+    margin: auto;
+}
+
+#botones{
+    padding: 1.4em;
+    margin: auto;
+    text-align: center;
+}
+
