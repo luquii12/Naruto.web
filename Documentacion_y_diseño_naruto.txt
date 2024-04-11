@@ -21,7 +21,7 @@ Diseño:
     • Para Tablets:
         ◦ Menú contraído vertical, dos columnas y con dos fotos de carousel.
     • Para Ordenador:
-        ◦ Menú en barra, dos columnas y con cuatro de fotos de carousel.
+        ◦ Menú en barra, tres columnas y con cuatro de fotos de carousel.
       Estilos CSS:
         ◦ Estilo para la página principal.
         ◦ Estilo para las páginas secundarias.
