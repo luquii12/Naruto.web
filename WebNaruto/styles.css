@@ -1,13 +1,16 @@
-*{
+* {
     margin: 0.1em;
     padding: 0.1em;
 }
-.PCR{
+
+.PCR {
     text-align: center;
 }
-body{
+
+body {
     background-color: #eb984e;
 }
+
 .navbar-nav {
     float: left;
     margin: 0;
@@ -15,11 +18,14 @@ body{
     transform: translatex(-50%);
     position: relative;
 }
-.row div{
+
+.row div {
     margin: auto;
 }
 
-#caja1, #caja2, #caja3{
+#caja1,
+#caja2,
+#caja3 {
     height: 400px;
     width: 410px;
     border: 5px solid grey;
