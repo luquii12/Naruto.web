@@ -19,14 +19,48 @@ body{
     margin: auto;
 }
 
-h1{
+h1, h2{
     text-align: center;
+    padding: 0.8em;
+}
+
+div{
+    padding: 1em;
 }
 
 #caja1, #caja2, #caja3{
-    height: 400px;
-    width: 410px;
-    border: 5px solid grey;
-    border-radius: 10%;
+    padding: 0.6;
+    height: 200px;
+    width: 210px;
     text-align: center;
+}
+
+#caja4, #caja5, #caja6{
+    margin: auto;
+    padding: 0.6;
+    border: solid grey;
+    border-radius: 5%;
+    align-content: center;
+}
+
+#caja4{
+    height: 550px;
+    width: 1110px;
+}
+#caja5{
+    height: 550px;
+    width: 1110px;
+}
+#caja6{
+    height: 680px;
+    width: 1110px;
+}
+
+#p1,#p2,#p3{
+    margin: 0.5em;
+    padding: 0,5wm;
+}
+#boton1{
+    height: 100px;
+    width: 210px;
 }
