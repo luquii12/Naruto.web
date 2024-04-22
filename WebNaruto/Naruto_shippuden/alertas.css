@@ -1,0 +1,25 @@
+body {
+    background-color: #e86837; 
+}
+.container-fluid {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 895px;
+    position: relative;
+    overflow: hidden;
+}
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.button-container button {
+    margin: 10px;
+}
+
+.img-fluid {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
