@@ -36,7 +36,7 @@ div {
 #caja1,
 #caja2,
 #caja3 {
-    padding: 0.6;
+    padding: 0.6em;
     height: 200px;
     width: 210px;
     text-align: center;
@@ -46,7 +46,7 @@ div {
 #caja5,
 #caja6 {
     margin: auto;
-    padding: 0.6;
+    padding: 0.6em;
     border: solid grey;
     border-radius: 5%;
     align-content: center;
@@ -71,10 +71,15 @@ div {
 #p2,
 #p3 {
     margin: 0.5em;
-    padding: 0, 5wm;
+    padding: 0 5em;
 }
 
-#boton1 {
+#boton1,
+#boton2,
+#boton3 {
     height: 100px;
     width: 210px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }

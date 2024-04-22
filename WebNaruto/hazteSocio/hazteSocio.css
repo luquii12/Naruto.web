@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #eb984e;
 }
 
-form{
+form {
     width: 1000px;
     margin: auto;
     background-color: black;
@@ -10,15 +10,16 @@ form{
     padding: 0.5em;
 }
 
-label{
+label {
     color: white;
 }
-*{
+
+* {
     margin: 0.3em;
     padding: 0.3em;
 }
 
-.PCR{
+.PCR {
     text-align: center;
 }
 
@@ -29,13 +30,17 @@ label{
     transform: translatex(-50%);
     position: relative;
 }
-.row div{
+
+.row div {
     margin: auto;
 }
 
-#botones{
+#botones {
     padding: 1.4em;
     margin: auto;
     text-align: center;
 }
 
+#botones button {
+    font-style: italic;
+}
