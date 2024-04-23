@@ -39,7 +39,7 @@
             </div>
         </div>
     </nav>
-    <form action="/WebNaruto/hazteSocio/formularioEnviado.html" method="get">
+    <form action="/WebNaruto/hazteSocio/formularioEnviado.html" method="get" onsubmit="return validarFormulario();">
         <div>
             <label for="Nombre" class="form-label">Nombre: </label>
             <input type="text" class="form-control" name="Nombre" id="Nombre">
@@ -70,12 +70,12 @@
             <textarea class="form-control" name="motivo" id="Motivo" cols="30" rows="10"></textarea>
         </div>
         <div>
-            <input type="checkbox" id="Si" name="Elegir" required>
+            <input type="checkbox" id="Si" name="Elegir">
             <label for="Si" class="form-label">Acepto los términos y las condiciones
             </label>
         </div>
         <div id="botones">
-            <button type="submit" class="btn btn-outline-light" value="Submit" onclick="validarNombre()">Enviar</button>
+            <button type="submit" class="btn btn-outline-light" value="Submit">Enviar</button>
             <button type="reset" class="btn btn-outline-light" value="Reset">Cancelar</button>
         </div>
     </form>
